@@ -4,3 +4,18 @@ function reverse(x){
         console.log(x[i]);
     }
     reverse(x)
+
+
+    let y= 'the car drove fast';
+
+
+    function string(y) {
+     let  z=y.split(" ");
+     for(let i=0;i<z.length ;i++){
+         z[i]=z[i][0].toUpperCase()+z[i].slice(1)
+         console.log(z[i]);
+     }
+    }
+    
+    string(y)
+    
